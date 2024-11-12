@@ -23,14 +23,14 @@ const Page = async () => {
               </li>
             ))}
           </ul>
-          <ul>
+          {/* <ul>
             {categories.map((categories: any, index: number) => (
               <li key={categories.categories_id || index} className="mb-4">
                 <h2 className="font-bold">{categories.id}</h2>
                 <p className="text-gray-700">{categories.title}</p>
               </li>
             ))}
-          </ul>
+          </ul> */}
         </div>
         <div>
           <Stripe />
