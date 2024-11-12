@@ -12,8 +12,8 @@ const Page = async () => {
     console.log(ideas); // Log the ideas to inspect the structure if needed
 
     return (
-      <div className="flex flex-col justify-between h-full">
-        <div>
+      <div className="flex flex-col justify-between h-full w-[50vw]">
+        <div className="border border-zinc-600 p-6 ">
           <h1>Ideas List</h1>
           <ul>
             {ideas.map((idea: any, index: number) => (
